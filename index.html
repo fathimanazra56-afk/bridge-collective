@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2852f5">
+  <title>Bridge Collective</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="#" aria-label="Bridge Collective home">
+        <span class="brand-dot"></span>
+        <span>Bridge Collective</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="site-menu" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#impact">Our Work</a>
+        <a href="#partners">Partners</a>
+        <a href="#report">Annual Report</a>
+        <a class="donate" href="#donate">Donate</a>
+      </nav>
+    </header>
+
+    <main class="main-layout" id="about">
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>A classroom<br>for every child.</h1>
+          <p>We fund the schools, train the teachers, and measure what works — so every child we reach today becomes a graduate tomorrow.</p>
+        </div>
+      </section>
+
+      <section class="stats-grid" id="impact" aria-label="Our impact">
+        <article class="stat-card">
+          <div class="stat-top">
+            <svg class="stat-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.5 19.2 12.8 29.5 16l-10.3 3.2L16 29.5l-3.2-10.3L2.5 16l10.3-3.2L16 2.5Z"/></svg>
+            <strong>2.4M</strong>
+          </div>
+          <div class="stat-description">
+            <h2>Students reached</h2>
+            <p>Across 31 countries since 2011.</p>
+          </div>
+        </article>
+
+        <article class="stat-card" id="partners">
+          <div class="stat-top">
+            <span class="plus-icon" aria-hidden="true">+</span>
+            <strong>1,284</strong>
+          </div>
+          <div class="stat-description">
+            <h2>Schools partnered</h2>
+            <p>In 14 countries, from Kenya to Guatemala.</p>
+          </div>
+        </article>
+
+        <article class="stat-card">
+          <div class="stat-top">
+            <svg class="stat-icon arrow-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 16h23M18 7l9 9-9 9"/></svg>
+            <strong>38K</strong>
+          </div>
+          <div class="stat-description">
+            <h2>Teachers trained</h2>
+            <p>Equipped with modern tools and methodology.</p>
+          </div>
+        </article>
+
+        <article class="stat-card">
+          <div class="stat-top">
+            <svg class="stat-icon trend-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="m3 23 9-9 6 5L29 7M20 7h9v9"/></svg>
+            <strong>3.1×</strong>
+          </div>
+          <div class="stat-description">
+            <h2>Graduation lift</h2>
+            <p>Partner schools outperform national averages 3x.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer" id="report">
+      <p>© 2026 Bridge Collective</p>
+      <p>Registered charity 12345678</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
